@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header, footer{
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div, footer div{
+    margin: 0 30px;
+}
+
+header div img{
+    height: 50px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo-text{
+    font-size: 30px;
+}
+
+#select{
+    margin: 0 20px 0 5px;
+    padding: 0 10px;
+}
+
+#button-play{
+    padding: 5px 30px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+}
+
+/* parte centrale */
+main{
+    height: calc(100vh - 100px);
+    border: 1px solid black;
+    background-color: blueviolet;
+}
+
+#container{
+    width: 50%;
+    height: calc(85% - 100px);
+    margin: 50px auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* difficolta easy */
+.square-easy{
+    width: 10%;
+    height: 10%;
+    border: 1px solid rgb(255, 255, 255);
+}
+/* difficolta normal */
+.square-normal{
+    width: calc(100% /9);
+    height: calc(100% /9);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* difficolta hard */
+.square-hard{
+    width: calc(100% /7);
+    height: calc(100% /7);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.span{
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+#risultato, #risultato2 {
+    margin: 10px 20px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    width: 25%;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+  }
